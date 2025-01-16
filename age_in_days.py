@@ -1,2 +1,3 @@
 age = input("How old are you (in years) ? ")
-print(float(age) * 365)
+days = float(age) * 365
+print(f"You're {days} days old")
